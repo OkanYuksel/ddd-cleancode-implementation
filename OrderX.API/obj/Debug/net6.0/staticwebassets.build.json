@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tEYXcPuP83W7UeiSreeilsw4R2jDOmOpHNOYzY7qreA=",
+  "Source": "OrderX.API",
+  "BasePath": "_content/OrderX.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

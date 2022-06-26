@@ -1,0 +1,15 @@
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/bin/Debug/net6.0/OrderX.Infrastructure.deps.json
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/bin/Debug/net6.0/OrderX.Infrastructure.dll
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/bin/Debug/net6.0/ref/OrderX.Infrastructure.dll
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/bin/Debug/net6.0/OrderX.Infrastructure.pdb
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/bin/Debug/net6.0/OrderX.Domain.dll
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/bin/Debug/net6.0/OrderX.Domain.pdb
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/obj/Debug/net6.0/OrderX.Infrastructure.csproj.AssemblyReference.cache
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/obj/Debug/net6.0/OrderX.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/obj/Debug/net6.0/OrderX.Infrastructure.AssemblyInfoInputs.cache
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/obj/Debug/net6.0/OrderX.Infrastructure.AssemblyInfo.cs
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/obj/Debug/net6.0/OrderX.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/obj/Debug/net6.0/OrderX.Infrastructure.csproj.CopyComplete
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/obj/Debug/net6.0/OrderX.Infrastructure.dll
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/obj/Debug/net6.0/ref/OrderX.Infrastructure.dll
+/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/obj/Debug/net6.0/OrderX.Infrastructure.pdb

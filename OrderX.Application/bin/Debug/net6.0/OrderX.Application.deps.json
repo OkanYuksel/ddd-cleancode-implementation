@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "OrderX.Application/1.0.0": {
+        "dependencies": {
+          "OrderX.Domain": "1.0.0",
+          "OrderX.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "OrderX.Application.dll": {}
+        }
+      },
+      "OrderX.Domain/1.0.0": {
+        "runtime": {
+          "OrderX.Domain.dll": {}
+        }
+      },
+      "OrderX.Infrastructure/1.0.0": {
+        "dependencies": {
+          "OrderX.Domain": "1.0.0"
+        },
+        "runtime": {
+          "OrderX.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderX.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderX.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderX.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

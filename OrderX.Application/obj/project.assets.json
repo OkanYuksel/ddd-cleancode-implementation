@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "OrderX.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/OrderX.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderX.Domain.dll": {}
+        }
+      },
+      "OrderX.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "OrderX.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderX.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderX.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderX.Domain/1.0.0": {
+      "type": "project",
+      "path": "../OrderX.Domain/OrderX.Domain.csproj",
+      "msbuildProject": "../OrderX.Domain/OrderX.Domain.csproj"
+    },
+    "OrderX.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../OrderX.Infrastructure/OrderX.Infrastructure.csproj",
+      "msbuildProject": "../OrderX.Infrastructure/OrderX.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "OrderX.Domain >= 1.0.0",
+      "OrderX.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/okany/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/okany/RiderProjects/OrderX/OrderX.Application/OrderX.Application.csproj",
+      "projectName": "OrderX.Application",
+      "projectPath": "/Users/okany/RiderProjects/OrderX/OrderX.Application/OrderX.Application.csproj",
+      "packagesPath": "/Users/okany/.nuget/packages/",
+      "outputPath": "/Users/okany/RiderProjects/OrderX/OrderX.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/okany/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.Domain.csproj": {
+              "projectPath": "/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.Domain.csproj"
+            },
+            "/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/OrderX.Infrastructure.csproj": {
+              "projectPath": "/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/OrderX.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
