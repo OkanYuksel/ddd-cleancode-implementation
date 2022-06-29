@@ -1,0 +1,12 @@
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/bin/Debug/net6.0/OrderX.DomainServices.deps.json
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/bin/Debug/net6.0/OrderX.DomainServices.dll
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/bin/Debug/net6.0/ref/OrderX.DomainServices.dll
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/bin/Debug/net6.0/OrderX.DomainServices.pdb
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/obj/Debug/net6.0/OrderX.DomainServices.csproj.AssemblyReference.cache
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/obj/Debug/net6.0/OrderX.DomainServices.GeneratedMSBuildEditorConfig.editorconfig
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/obj/Debug/net6.0/OrderX.DomainServices.AssemblyInfoInputs.cache
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/obj/Debug/net6.0/OrderX.DomainServices.AssemblyInfo.cs
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/obj/Debug/net6.0/OrderX.DomainServices.csproj.CoreCompileInputs.cache
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/obj/Debug/net6.0/OrderX.DomainServices.dll
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/obj/Debug/net6.0/ref/OrderX.DomainServices.dll
+/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.DomainServices/obj/Debug/net6.0/OrderX.DomainServices.pdb

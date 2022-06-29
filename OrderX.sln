@@ -8,6 +8,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderX.Domain", "OrderX.Dom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderX.Infrastructure", "OrderX.Infrastructure\OrderX.Infrastructure.csproj", "{4BE8A5FB-02BE-49CC-9DAE-AC25F93CA42C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderX.Application", "OrderX.Application", "{CE34A3B5-7059-4E39-B829-6DF7A44A8F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderX.ApplicationContracts", "OrderX.Application\OrderX.ApplicationContracts\OrderX.ApplicationContracts.csproj", "{D4C6C947-3493-43D7-8709-FD50EF47F6D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderX.Domain", "OrderX.Domain", "{AB6AB565-12CA-4633-9B8C-3667863FC060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderX.DomainServices", "OrderX.DomainServices\OrderX.DomainServices\OrderX.DomainServices.csproj", "{DB845FC9-BB4B-442A-B2C9-CD6D67EF8553}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +38,19 @@ Global
 		{4BE8A5FB-02BE-49CC-9DAE-AC25F93CA42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BE8A5FB-02BE-49CC-9DAE-AC25F93CA42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BE8A5FB-02BE-49CC-9DAE-AC25F93CA42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C6C947-3493-43D7-8709-FD50EF47F6D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C6C947-3493-43D7-8709-FD50EF47F6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C6C947-3493-43D7-8709-FD50EF47F6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C6C947-3493-43D7-8709-FD50EF47F6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB845FC9-BB4B-442A-B2C9-CD6D67EF8553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB845FC9-BB4B-442A-B2C9-CD6D67EF8553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB845FC9-BB4B-442A-B2C9-CD6D67EF8553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB845FC9-BB4B-442A-B2C9-CD6D67EF8553}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27D4895F-D031-4781-BA65-41EF6B764F40} = {CE34A3B5-7059-4E39-B829-6DF7A44A8F36}
+		{D4C6C947-3493-43D7-8709-FD50EF47F6D7} = {CE34A3B5-7059-4E39-B829-6DF7A44A8F36}
+		{88BBA727-4C6A-4760-92CD-96D3FEC68E47} = {AB6AB565-12CA-4633-9B8C-3667863FC060}
+		{DB845FC9-BB4B-442A-B2C9-CD6D67EF8553} = {AB6AB565-12CA-4633-9B8C-3667863FC060}
 	EndGlobalSection
 EndGlobal

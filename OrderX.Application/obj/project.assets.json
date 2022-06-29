@@ -12,6 +12,16 @@
           "bin/placeholder/OrderX.Domain.dll": {}
         }
       },
+      "OrderX.DomainServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/OrderX.DomainServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderX.DomainServices.dll": {}
+        }
+      },
       "OrderX.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -33,6 +43,11 @@
       "path": "../OrderX.Domain/OrderX.Domain.csproj",
       "msbuildProject": "../OrderX.Domain/OrderX.Domain.csproj"
     },
+    "OrderX.DomainServices/1.0.0": {
+      "type": "project",
+      "path": "../OrderX.DomainServices/OrderX.DomainServices/OrderX.DomainServices.csproj",
+      "msbuildProject": "../OrderX.DomainServices/OrderX.DomainServices/OrderX.DomainServices.csproj"
+    },
     "OrderX.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../OrderX.Infrastructure/OrderX.Infrastructure.csproj",
@@ -42,6 +57,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "OrderX.Domain >= 1.0.0",
+      "OrderX.DomainServices >= 1.0.0",
       "OrderX.Infrastructure >= 1.0.0"
     ]
   },
@@ -72,6 +88,9 @@
           "projectReferences": {
             "/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.Domain.csproj": {
               "projectPath": "/Users/okany/RiderProjects/OrderX/OrderX.Domain/OrderX.Domain.csproj"
+            },
+            "/Users/okany/RiderProjects/OrderX/OrderX.DomainServices/OrderX.DomainServices/OrderX.DomainServices.csproj": {
+              "projectPath": "/Users/okany/RiderProjects/OrderX/OrderX.DomainServices/OrderX.DomainServices/OrderX.DomainServices.csproj"
             },
             "/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/OrderX.Infrastructure.csproj": {
               "projectPath": "/Users/okany/RiderProjects/OrderX/OrderX.Infrastructure/OrderX.Infrastructure.csproj"

@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <Folder Include="Adapters\BasketService\Dtos\Requests" />
+      <Folder Include="Adapters\UserService\Dtos\Requests" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using OrderX.API.Dtos.Requests;
+using OrderX.API.Dtos.Responses;
 
 namespace OrderX.API.Controllers
 {
@@ -12,16 +9,24 @@ namespace OrderX.API.Controllers
     public class OrderController : ControllerBase
     {
         private readonly ILogger<OrderController> _logger;
-        
+
         public OrderController(ILogger<OrderController> logger)
         {
             _logger = logger;
         }
-        
+
         [HttpPost(Name = "CreateOrder")]
-        public bool CreateOrder()
+        public async Task<CreateOrderResponseDto> CreateOrder([FromBody] CreateOrderRequestDto requestDto)
         {
-            return true;
+            // var commandResult =
+            //     CreateOrderUseCase.CreateOrder(_mapper.Map<CreateOrderRequestDto, CreateOrderCommand>(requestDto));
+            //
+            // return _mapper.Map<CommandResult, CreateOrderResponseDto>(commandResult);
+
+            return new CreateOrderResponseDto
+            {
+                OrderNumber = 111
+            };
         }
     }
 }

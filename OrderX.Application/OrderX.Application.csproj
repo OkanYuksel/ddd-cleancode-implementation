@@ -4,9 +4,12 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\OrderX.DomainServices\OrderX.DomainServices\OrderX.DomainServices.csproj" />
       <ProjectReference Include="..\OrderX.Domain\OrderX.Domain.csproj" />
       <ProjectReference Include="..\OrderX.Infrastructure\OrderX.Infrastructure.csproj" />
     </ItemGroup>

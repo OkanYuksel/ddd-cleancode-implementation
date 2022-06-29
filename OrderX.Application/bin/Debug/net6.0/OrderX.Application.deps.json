@@ -9,6 +9,7 @@
       "OrderX.Application/1.0.0": {
         "dependencies": {
           "OrderX.Domain": "1.0.0",
+          "OrderX.DomainServices": "1.0.0",
           "OrderX.Infrastructure": "1.0.0"
         },
         "runtime": {
@@ -18,6 +19,11 @@
       "OrderX.Domain/1.0.0": {
         "runtime": {
           "OrderX.Domain.dll": {}
+        }
+      },
+      "OrderX.DomainServices/1.0.0": {
+        "runtime": {
+          "OrderX.DomainServices.dll": {}
         }
       },
       "OrderX.Infrastructure/1.0.0": {
@@ -37,6 +43,11 @@
       "sha512": ""
     },
     "OrderX.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderX.DomainServices/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

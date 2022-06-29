@@ -8,10 +8,11 @@ namespace OrderX.Domain.Aggreagates;
 
 public class Order
 {
-    private Order(Customer customer, Basket basket)
+    private Order(Customer customer, Basket basket, long orderNumber)
     {
         Customer = customer;
         Basket = basket;
+        OrderNumber = orderNumber;
     }
 
     public static Order Load(OrderDomainDto orderDomainDto)
@@ -21,7 +22,7 @@ public class Order
         Guard.That<DomainException>(orderDomainDto.Customer == null, nameof(DomainErrorCodes.EDORDER1002),
             DomainErrorCodes.EDORDER1002);
             
-        return new Order(Customer.Load(orderDomainDto.Customer), Basket.Load(orderDomainDto.Basket));
+        return new Order(Customer.Load(orderDomainDto.Customer), Basket.Load(orderDomainDto.Basket), orderDomainDto.OrderNumber);
     }
 
     public static Order Create(OrderDomainDto orderDomainDto)
@@ -31,4 +32,5 @@ public class Order
 
     public Customer Customer { get; set; }
     public Basket Basket { get; set; }
+    public long OrderNumber { get; set; }
 }

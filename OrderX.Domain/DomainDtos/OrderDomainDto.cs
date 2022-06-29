@@ -7,4 +7,5 @@ public class OrderDomainDto
 {
     public CustomerDomainDto Customer { get; set; }
     public BasketDomainDto Basket { get; set; }
+    public long OrderNumber { get; set; }
 }
